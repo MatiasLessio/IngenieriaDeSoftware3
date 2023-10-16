@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "restore": {
+    "d:\\Facu\\ingsw3\\IngenieriaDeSoftware3\\TP9\\moq\\MiNotSoSimpleAppTests\\MiNotSoSimpleAppTests.csproj": {}
+  },
+  "projects": {
+    "d:\\Facu\\ingsw3\\IngenieriaDeSoftware3\\TP9\\moq\\MiNotSoSimpleAppTests\\MiNotSoSimpleAppTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Facu\\ingsw3\\IngenieriaDeSoftware3\\TP9\\moq\\MiNotSoSimpleAppTests\\MiNotSoSimpleAppTests.csproj",
+        "projectName": "MiNotSoSimpleAppTests",
+        "projectPath": "d:\\Facu\\ingsw3\\IngenieriaDeSoftware3\\TP9\\moq\\MiNotSoSimpleAppTests\\MiNotSoSimpleAppTests.csproj",
+        "packagesPath": "C:\\Users\\Matias\\.nuget\\packages\\",
+        "outputPath": "d:\\Facu\\ingsw3\\IngenieriaDeSoftware3\\TP9\\moq\\MiNotSoSimpleAppTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Matias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "d:\\Facu\\ingsw3\\IngenieriaDeSoftware3\\TP9\\moq\\MiNotSoSimpleApp\\MiNotSoSimpleApp.csproj": {
+                "projectPath": "d:\\Facu\\ingsw3\\IngenieriaDeSoftware3\\TP9\\moq\\MiNotSoSimpleApp\\MiNotSoSimpleApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Facu\\ingsw3\\IngenieriaDeSoftware3\\TP9\\moq\\MiNotSoSimpleApp\\MiNotSoSimpleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Facu\\ingsw3\\IngenieriaDeSoftware3\\TP9\\moq\\MiNotSoSimpleApp\\MiNotSoSimpleApp.csproj",
+        "projectName": "MiNotSoSimpleApp",
+        "projectPath": "d:\\Facu\\ingsw3\\IngenieriaDeSoftware3\\TP9\\moq\\MiNotSoSimpleApp\\MiNotSoSimpleApp.csproj",
+        "packagesPath": "C:\\Users\\Matias\\.nuget\\packages\\",
+        "outputPath": "d:\\Facu\\ingsw3\\IngenieriaDeSoftware3\\TP9\\moq\\MiNotSoSimpleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Matias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
